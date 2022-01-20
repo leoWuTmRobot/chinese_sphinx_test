@@ -64,18 +64,4 @@ html_theme = 'sphinx_rtd_theme'
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
-latex_docclass = {'manual' : 'jsbook'}
-latex_elements = {
-    'papersize' = 'a4paper',
-    'pointsize' = '12pt',
-    'preamble': '',    # あとで追加するので定義だけしておく
-    'figure_align': 'htbp',
-#   'fontpkg': '\\usepackage{times}',
-}
-latex_elements['preamble'] += '\\usepackage{pxjahyper}\n'
-latex_elements['preamble'] += '\\usepackage{graphics}\n'
-latex_elements['preamble'] += '\\hypersetup{bookmarksnumbered=true}\n'
-latex_elements['preamble'] += '\\hypersetup{bookmarksopen=true}\n'
-latex_elements['preamble'] += '\\hypersetup{bookmarksopenlevel=2}\n'
-latex_elements['preamble'] += '\\hypersetup{colorlinks=true}\n'
-latex_elements['preamble'] += '\\hypersetup{pdfpagemode=UseOutlines}\n'
+

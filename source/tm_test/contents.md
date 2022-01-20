@@ -382,11 +382,12 @@ The <robot_ip_address> is the IP address of the TM Robot, the user can get it th
 ``ros2 run ui_for_debug_and_demo robot_ui``<br/>
 
 ### 接下來是中文測試
-> 我們接下來要測試中文
-> 看看不同語言的是否轉換上OK
-> 如上面所示，中文夾雜英文似乎會有亂碼
-> 應該要想辦法嘗試去除亂碼？
-> 又如果English再中間，可以嘛？
+> 我們接下來要測試中文 <br/>
+> 看看不同語言的是否轉換上OK <br/>
+> 如上面所示，中文夾雜英文似乎會有亂碼 <br/>
+> 應該要想辦法嘗試去除亂碼？ <br/>
+> 又如果English再中間，可以嘛？ <br/>
+> 結果發現似乎是缺字，"換"這一個字不行
 
 ### これは日本語のテスト
 >　日本語を現れることはできますか？

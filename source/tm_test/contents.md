@@ -384,6 +384,10 @@ The <robot_ip_address> is the IP address of the TM Robot, the user can get it th
 ### 接下來是中文測試
 > 我們接下來要測試中文
 > 看看不同語言的是否轉換上OK
+> 如上面所示，中文夾雜英文似乎會有亂碼
+> 應該要想辦法嘗試去除亂碼？
+> 又如果English再中間，可以嘛？
 
 ### これは日本語のテスト
 >　日本語を現れることはできますか？
+>　もしも、日本語と英語は同じのlineを書られば、よろしですか？

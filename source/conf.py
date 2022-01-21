@@ -66,7 +66,8 @@ latex_elements = {
     'preamble': r'''
     \hypersetup{unicode=true}
     \usepackage{CJKutf8}
-    \setCJKfamilyfont{kai}
+    \begin{CJK}{UTF8}{gbsn}
+    \AtEndDocument{\end{CJK}}
     ''',
 }
 # Add any paths that contain custom static files (such as style sheets) here,
